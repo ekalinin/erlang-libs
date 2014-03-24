@@ -6,6 +6,5 @@ Listing of useful erlang libraries
 Contributing
 ------------
 
-* Fork current repository
-* Edit data.json
+* [Edit data.json](https://github.com/ekalinin/erlang-libs/edit/gh-pages/data.js)
 * Send pull request
