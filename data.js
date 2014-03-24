@@ -1,5 +1,4 @@
 function DataCtrl($scope) {
-  $scope.predicate = '-name';
   $scope.data = [
       {
           name:     'lager',
