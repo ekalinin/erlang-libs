@@ -70,7 +70,6 @@
             file. For example:
             <pre> <code>
         {
-          name:     'cowboy',
           github:   'extend/cowboy',
           tags:     ['http-server', 'websockets'],
           license:  'BSD',
@@ -106,7 +105,7 @@
               </tr>
           </thead>
           <tbody>
-              <tr ng-repeat="row in data | filter:searchText">
+              <tr ng-repeat="row in getData() | filter:searchText">
                   <td>{{$index + 1}}</td>
                   <td><b>{{row.name}}</b></td>
                   <td>
