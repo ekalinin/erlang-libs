@@ -15,6 +15,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 
+    <!-- Custom -->
+    <script src="data.js"></script>
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -48,17 +51,6 @@
           margin: 20px 0;
         }
     </style>
-
-    <script>
-    function DataCtrl($scope, $http) {
-        $http.get('erlang-libs.json')
-             .then(function(res){
-                     console.log(res)
-                $scope.data = res.data;
-              });
-    }
-    </script>
-
   </head>
   <body>
 
