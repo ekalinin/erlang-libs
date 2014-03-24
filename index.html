@@ -51,7 +51,7 @@
 
     <script>
     function DataCtrl($scope, $http) {
-        $http.get('https://github.com/ekalinin/erlang-libs/raw/master/erlang-libs.json')
+        $http.get('erlang-libs.json')
              .then(function(res){
                 $scope.data = res.data;
               });
