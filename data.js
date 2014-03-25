@@ -413,6 +413,60 @@ function DataCtrl($scope) {
           license:  'MIT',
           desc:     'Memcached client'
       },
+      {
+          github:   'Feuerlabs/exometer',
+          tags:     ['measurement', 'collectd', 'graphite', 'snmp'],
+          license:  'MPL',
+          desc:     'Basic measurement objects and probe behavior'
+      },
+      {
+          github:   'ngerakines/etap',
+          tags:     ['tests', 'tap'],
+          license:  '--',
+          desc:     'Collection of modules that provide a TAP testing client library'
+      },
+      {
+          github:   'engineyard/natter',
+          tags:     ['xmpp', 'client'],
+          license:  'LGPL',
+          desc:     'XMPP Client'
+      },
+      {
+          github:   'lambder/jsonerl',
+          tags:     ['json'],
+          license:  '--',
+          desc:     'Yet another JSON (RFC 4627) library'
+      },
+      {
+          github:   'okeuday/uuid',
+          tags:     ['uuid'],
+          license:  'BSD',
+          desc:     'Native UUID Generation'
+      },
+      {
+          github:   'willemdj/erlsom',
+          tags:     ['xml'],
+          license:  '--',
+          desc:     'XML parser'
+      },
+      {
+          github:   'RJ/erlang-spdy',
+          tags:     ['spdy'],
+          license:  'BSD',
+          desc:     'Library implementing the SPDY protocol'
+      },
+      {
+          github:   'ngerakines/erlang_couchdb',
+          tags:     ['couchdb', 'client'],
+          license:  '--',
+          desc:     'Really simple CouchDB client'
+      },
+      {
+          github:   'mazenharake/cecho',
+          tags:     ['terminal', 'ncurses'],
+          license:  'Apache',
+          desc:     'An ncurses library which enabled to create terminal based GUIs'
+      },
       /*
       {
           github:   '',
