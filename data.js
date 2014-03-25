@@ -73,7 +73,7 @@ function DataCtrl($scope) {
       },
       {
           github:   'yrashk/socket.io-erlang',
-          tags:     ['socket.io'],
+          tags:     ['socket.io', 'websockets'],
           license:  '--',
           desc:     'Full-blown socket.io server reimplementation'
       },
@@ -328,6 +328,48 @@ function DataCtrl($scope) {
           tags:     ['config', 'ini'],
           license:  'Apache',
           desc:     'Simple config handler using INI files'
+      },
+      {
+          github:   'basho/riak_core',
+          tags:     ['distributed', 'riak'],
+          license:  'Apache',
+          desc:     'Toolkit for building distributed, scalable, fault-tolerant applications'
+      },
+      {
+          github:   'rvirding/luerl',
+          tags:     ['lua'],
+          license:  'Apache',
+          desc:     'An implementation of Lua in Erlang'
+      },
+      {
+          github:   'tim/erlang-oauth',
+          tags:     ['auth', 'oauth'],
+          license:  'MIT',
+          desc:     'OAuth 1.0 implementation'
+      },
+      {
+          github:   'jlouis/etorrent',
+          tags:     ['torrent', 'bittorrent', 'client'],
+          license:  '',
+          desc:     'Bittorrent client'
+      },
+      {
+          github:   'rabbitmq/erlando',
+          tags:     ['syntax'],
+          license:  'MPL',
+          desc:     'Syntax extensions'
+      },
+      {
+          github:   'ferd/recon',
+          tags:     ['debug'],
+          license:  'BSD',
+          desc:     'Collection of functions and scripts to debug Erlang in production'
+      },
+      {
+          github:   'kevsmith/gen_nb_server',
+          tags:     ['behavior', 'server', 'tcp'],
+          license:  '--',
+          desc:     'OTP behavior for writing non-blocking servers'
       },
       /*
       {
