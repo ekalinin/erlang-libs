@@ -323,9 +323,14 @@ function DataCtrl($scope) {
           license:  'MIT',
           desc:     'Small and flexible web framework on top of Cowboy'
       },
+      {
+          github:   'benoitc/econfig',
+          tags:     ['config', 'ini'],
+          license:  'Apache',
+          desc:     'Simple config handler using INI files'
+      },
       /*
       {
-          name:     '',
           github:   '',
           tags:     [''],
           license:  '',
