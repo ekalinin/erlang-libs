@@ -325,7 +325,7 @@ function DataCtrl($scope) {
       },
       {
           github:   'benoitc/econfig',
-          tags:     ['config', 'ini'],
+          tags:     ['configuration', 'ini'],
           license:  'Apache',
           desc:     'Simple config handler using INI files'
       },
@@ -370,6 +370,48 @@ function DataCtrl($scope) {
           tags:     ['behavior', 'server', 'tcp'],
           license:  '--',
           desc:     'OTP behavior for writing non-blocking servers'
+      },
+      {
+          github:   'jcomellas/getopt',
+          tags:     ['configuration', 'getopt'],
+          license:  'BSD',
+          desc:     'Command-line parsing module that uses a syntax similar to GNU getopt'
+      },
+      {
+          github:   'ngerakines/erlang_twitter',
+          tags:     ['twitter', 'client'],
+          license:  '--',
+          desc:     'Client library to the Twitter API'
+      },
+      {
+          github:   'jchris/hovercraft',
+          tags:     ['couchdb', 'client'],
+          license:  'Apache',
+          desc:     'An easy direct Erlang CouchDB library'
+      },
+      {
+          github:   'beamjs/erlv8',
+          tags:     ['v8', 'client'],
+          license:  '',
+          desc:     'Interface for V8'
+      },
+      {
+          github:   'erlang-unicode/ux',
+          tags:     ['unicode'],
+          license:  'Apache',
+          desc:     'Unicode eXtension'
+      },
+      {
+          github:   'msantos/procket',
+          tags:     ['socket'],
+          license:  '--',
+          desc:     'Library for socket creation and manipulation'
+      },
+      {
+          github:   'joewilliams/merle',
+          tags:     ['memcached', 'client'],
+          license:  'MIT',
+          desc:     'Memcached client'
       },
       /*
       {
