@@ -467,6 +467,18 @@ function DataCtrl($scope) {
           license:  'Apache',
           desc:     'An ncurses library which enabled to create terminal based GUIs'
       },
+      {
+          github:   'seth/ej',
+          tags:     ['json'],
+          license:  'Apache',
+          desc:     'Helper library for accessing and validating JSON terms'
+      },
+      {
+          github:   'seth/pooler',
+          tags:     ['pool'],
+          license:  'Apache',
+          desc:     'Generic OTP process pool'
+      },
       /*
       {
           github:   '',
