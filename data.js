@@ -479,6 +479,12 @@ function DataCtrl($scope) {
           license:  'Apache',
           desc:     'Generic OTP process pool'
       },
+      {
+          github:   'ddosia/mekao',
+          tags:     ['sql', 'orm'],
+          license:  'MIT',
+          desc:     'Erlang SQL constructor'
+      },
       /*
       {
           github:   '',
