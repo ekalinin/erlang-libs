@@ -485,6 +485,18 @@ function DataCtrl($scope) {
           license:  'MIT',
           desc:     'Erlang SQL constructor'
       },
+      {
+          github:   'synrc/avz',
+          tags:     ['auth', 'OAuth'],
+          license:  '--',
+          desc:     'AVZ Login System for N2O'
+      },
+      {
+          github:   'carlosmn/geef',
+          tags:     ['nif', 'git'],
+          license:  'MIT',
+          desc:     'Erlang NIF that exposes some of the libgit2 library functions to Erlang'
+      },
       /*
       {
           github:   '',
