@@ -503,7 +503,12 @@ function DataCtrl($scope) {
           license:  'MIT',
           desc:     'ANSI colors for your Erlang'
       },
-
+      {
+          github:   'nox/mouture',
+          tags:     ['semver', 'version', 'parser'],
+          license:  'BSD',
+          desc:     'A semver 2.0.0 parser for Erlang'
+      },
       /*
       {
           github:   '',
