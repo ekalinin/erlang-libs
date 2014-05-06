@@ -497,6 +497,13 @@ function DataCtrl($scope) {
           license:  'MIT',
           desc:     'Erlang NIF that exposes some of the libgit2 library functions to Erlang'
       },
+      {
+          github:   'julianduque/erlang-color',
+          tags:     ['color', 'terminal', 'ansi'],
+          license:  'MIT',
+          desc:     'ANSI colors for your Erlang'
+      },
+
       /*
       {
           github:   '',
