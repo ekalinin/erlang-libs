@@ -509,6 +509,12 @@ function DataCtrl($scope) {
           license:  'BSD',
           desc:     'A semver 2.0.0 parser for Erlang'
       },
+      {
+          github:   'gleber/sh',
+          tags:     ['shell'],
+          license:  'BSD',
+          desc:     'Erlang Shell Command Utility'
+      },
       /*
       {
           github:   '',
