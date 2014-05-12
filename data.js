@@ -533,6 +533,12 @@ function DataCtrl($scope) {
           license:  'MIT',
           desc:     'Wrapper for Date and Timezone Management'
       },
+      {
+          github:   'SemanticSugar/dinerl',
+          tags:     ['AWS', 'DynamoDB'],
+          license:  'MIT',
+          desc:     'AWS DynamoDB client'
+      },
       /*
       {
           github:   '',
