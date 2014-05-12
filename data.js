@@ -527,6 +527,12 @@ function DataCtrl($scope) {
           license:  'BSD',
           desc:     'Shell Executor'
       },
+      {
+          github:   'choptastic/qdate',
+          tags:     ['date', 'timezone'],
+          license:  'MIT',
+          desc:     'Wrapper for Date and Timezone Management'
+      },
       /*
       {
           github:   '',
