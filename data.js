@@ -515,6 +515,18 @@ function DataCtrl($scope) {
           license:  'BSD',
           desc:     'Erlang Shell Command Utility'
       },
+      {
+          github:   'synrc/fs',
+          tags:     ['fs', 'watch'],
+          license:  'BSD',
+          desc:     'FileSystem Listener'
+      },
+      {
+          github:   'synrc/sh',
+          tags:     ['fs', 'exec'],
+          license:  'BSD',
+          desc:     'Shell Executor'
+      },
       /*
       {
           github:   '',
