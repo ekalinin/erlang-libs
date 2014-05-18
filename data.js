@@ -539,6 +539,12 @@ function DataCtrl($scope) {
           license:  'MIT',
           desc:     'AWS DynamoDB client'
       },
+      {
+          github:   's1n4/leptus',
+          tags:     ['http', 'framework'],
+          license:  'MIT',
+          desc:     'REST framework'
+      },
       /*
       {
           github:   '',
