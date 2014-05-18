@@ -545,6 +545,12 @@ function DataCtrl($scope) {
           license:  'MIT',
           desc:     'REST framework'
       },
+      {
+          github:   'opscode/sqerl',
+          tags:     ['sql'],
+          license:  'Apache',
+          desc:     'General purpose RDBMS abstraction layer'
+      },
       /*
       {
           github:   '',
