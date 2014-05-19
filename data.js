@@ -551,6 +551,12 @@ function DataCtrl($scope) {
           license:  'Apache',
           desc:     'General purpose RDBMS abstraction layer'
       },
+      {
+          github:   'seriyps/gettexter',
+          tags:     ['gettext', 'i18n'],
+          license:  'Apache',
+          desc:     'gettext for erlang'
+      },
       /*
       {
           github:   '',
