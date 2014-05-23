@@ -563,6 +563,18 @@ function DataCtrl($scope) {
           license:  'EPL',
           desc:     'PHP Interpreter in pure Erlang'
       },
+      {
+          github:   'skeltoac/php_app',
+          tags:     ['php'],
+          license:  '--',
+          desc:     'A PHP eval server'
+      },
+      {
+          github:   'julianduque/eric',
+          tags:     ['irc', 'client'],
+          license:  'MIT',
+          desc:     'IRC Client'
+      },
       /*
       {
           github:   '',
