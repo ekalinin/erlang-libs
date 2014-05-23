@@ -557,6 +557,12 @@ function DataCtrl($scope) {
           license:  'Apache',
           desc:     'gettext for erlang'
       },
+      {
+          github:   'altenwald/ephp',
+          tags:     ['php'],
+          license:  'EPL',
+          desc:     'PHP Interpreter in pure Erlang'
+      },
       /*
       {
           github:   '',
