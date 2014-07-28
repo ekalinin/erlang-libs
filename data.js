@@ -575,6 +575,12 @@ function DataCtrl($scope) {
           license:  'MIT',
           desc:     'IRC Client'
       },
+      {
+          github:    'selectel/tempo',
+          tags:      ['date'],
+          license:   'MIT',
+          desc:      'Library for parsing and formatting dates'
+      },
       /*
       {
           github:   '',
