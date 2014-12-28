@@ -581,6 +581,12 @@ function DataCtrl($scope) {
           license:   'MIT',
           desc:      'Library for parsing and formatting dates'
       },
+      {
+          github:   'drlinux/erl-recaptcha',
+          tags:     ['captcha','re-captcha'],
+          license:  'GPL',
+          desc:     'Library for Google recaptcha validation'
+      },
       /*
       {
           github:   '',
