@@ -299,11 +299,17 @@ function DataCtrl($scope) {
           license:  'MIT',
           desc:     'Web MVC framework'
       },
+       {
+          github:   'synrc/nitro',
+          tags:     ['framework', 'html'],
+          license:  'MIT',
+          desc:     'HTML5 Templates on Erlang Records'
+      },
       {
-          github:   '5HT/n2o',
+          github:   'synrc/n2o',
           tags:     ['framework', 'websockets'],
           license:  'MIT',
-          desc:     'Web Framework on WebSockets'
+          desc:     '1K LOC Web Framework on WebSockets'
       },
       {
           github:   'tsujigiri/axiom',
@@ -480,6 +486,24 @@ function DataCtrl($scope) {
           desc:     'Generic OTP process pool'
       },
       {
+          github:   'synrc/active',
+          tags:     ['sync', 'reload'],
+          license:  'MIT',
+          desc:     'Recompilation on the fly, sync replacement'
+      },
+      {
+          github:   'synrc/mad',
+          tags:     ['rebar', 'build'],
+          license:  'MIT',
+          desc:     'Small and fast rebar replacement'
+      },
+      {
+          github:   'synrc/kvs',
+          tags:     ['databases', 'mappings'],
+          license:  'MIT',
+          desc:     'Abstract Erlang Term Database'
+      },
+      {
           github:   'ddosia/mekao',
           tags:     ['sql', 'orm'],
           license:  'MIT',
@@ -519,7 +543,7 @@ function DataCtrl($scope) {
           github:   'synrc/fs',
           tags:     ['fs', 'watch'],
           license:  'BSD',
-          desc:     'FileSystem Listener'
+          desc:     'File System Listener used in Phoenixframework'
       },
       {
           github:   'synrc/sh',
@@ -538,6 +562,12 @@ function DataCtrl($scope) {
           tags:     ['AWS', 'DynamoDB'],
           license:  'MIT',
           desc:     'AWS DynamoDB client'
+      },
+      {
+          github:   'synrc/rest',
+          tags:     ['http', 'framework'],
+          license:  'MIT',
+          desc:     '200 LOC REST framework'
       },
       {
           github:   's1n4/leptus',
